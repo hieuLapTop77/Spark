@@ -4,7 +4,7 @@
 #### Run with scala on spark-shell:
 - Install hadoop cluster node:https://medium.com/@jootorres_11979/how-to-set-up-a-hadoop-3-2-1-multi-node-cluster-on-ubuntu-18-04-2-nodes-567ca44a3b12
 - Install spark on ubuntu: https://phoenixnap.com/kb/install-spark-on-ubuntu
-- Prepare data and load file data on HDFS(Hadoop Distributed File System): hdfs dfs –mkdir –p /user/hadoopuser/input (create folder "input" on HDFS) and hdfs dfs –put sample.txt /user/hadoopuser/input (Load file data "sample.txt" on HDFS).
+- Prepare data and load file data on HDFS(Hadoop Distributed File System): hdfs dfs -mkdir -p /user/hadoopuser/input (create folder "input" on HDFS) and hdfs dfs -put sample.txt /user/hadoopuser/input (Load file data "sample.txt" on HDFS).
 - Create a file NameProgram.scala (Ex: nano/vim demo.scala)
 - Run spark-shell (spark-shell)
 - Load file: (":load /home/hadoopuser/demo.scala")
